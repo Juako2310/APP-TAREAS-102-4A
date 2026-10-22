@@ -19,6 +19,8 @@ urlpatterns = [
     #API GET Listar Tareas
 
     path('api/tareas/', views.TareasApiView.as_view(), name="api_tareas"),
+
+    path('api/tareas/', views.TareasApiView.as_view(), name="api_tareas")
 ]
 
 
